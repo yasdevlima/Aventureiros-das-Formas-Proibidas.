@@ -1,0 +1,94 @@
+
+*{
+    background-color: #e3c6e8;
+}
+h1,h3{
+   text-align: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: #7a08cc;
+}
+.primeira,
+.segunda  {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    gap: 5px;
+    margin-top: 20px;
+  
+}
+.primeira > div,
+.segunda > div {
+    background: #e2b7f1;
+    border: 3px solid #903fc9;
+    border-radius: 10px;
+    padding: 40px;
+    width: 70px;
+    height: 5px;
+    display: flex;
+    text-align: center;
+}
+
+
+.circulo a {
+    margin-top: -5px;   /* Move o link para baixo */
+    margin-left: 4px;  /* Move o link para a direita */
+    background-color: #e2b7f1;
+}
+
+.cubo a {
+    margin-top: -5px;   /* Move o link para baixo */
+    margin-left: 10px;  /* Move o link para a direita */
+}
+.retangulo a{
+    margin-top: -5px;   /* Move o link para baixo */
+    margin-left: -10px;  /* Move o link para a direita */
+}   
+
+.romboedro a {
+    
+    margin-top: -5px;   /* Move o link para baixo */
+    margin-left: -10px;  /* Move o link para a direita */
+}
+.circulo a,
+.cubo a,
+.retangulo a,
+.romboedro a,
+.trapezoide a,
+.poligono a,
+.quadrado a,
+.cuboide a{
+    background-color: #e2b7f1;
+    color: #7a08cc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.trapezoide a{
+    margin-top: -5px;   /* Move o link para baixo */
+    margin-left: -15px;
+    
+}
+.poligono a{
+    margin-top: -5px;   /* Move o link para baixo */
+    margin-left: -8px;
+  
+}
+.quadrado a{
+    margin-top: -5px;   /* Move o link para baixo */
+    margin-left: -11px;
+ 
+}
+.cuboide a{
+    margin-top: -5px;   /* Move o link para baixo */
+    margin-left: -1px;
+ 
+}
+body{
+    background-color: #e3c6e8;
+}
+button{
+    background-color: #903fc9;
+}
+.btn btn-primary{
+    background-color: #903fc9;
+}
